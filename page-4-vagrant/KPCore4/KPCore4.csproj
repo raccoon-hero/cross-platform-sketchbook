@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.1.0</Version>
+    <Authors>raccoon-hero</Authors>
+    <Description>A class library with methods, that solves problems of Lab1, 2, and 3.</Description>
+    <RepositoryUrl>https://github.com/raccoon-hero/cross-platform-programming/tree/main/CROSS_Task4</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

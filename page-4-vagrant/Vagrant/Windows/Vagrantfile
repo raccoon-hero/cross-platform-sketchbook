@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/windows-10"
+  config.vm.network "public_network"
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.gui = true
+  end
+  
+  config.vm.provision "shell", privileged: true, inline: <<-SHELL
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+    Invoke-WebRequest -Uri https://download.visualstudio.microsoft.com/download/pr/81531ad6-afa9-4b61-9d05-6a76dce81123/2885d26c1a58f37176fd7859f8cc80f1/dotnet-sdk-6.0.417-win-x64.exe -OutFile dotnet-sdk-6.0.417-win-x64.exe
+    Start-Process -FilePath dotnet-sdk-6.0.417-win-x64.exe
+  SHELL
+end

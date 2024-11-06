@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CROSS_Task4", "CROSS_Task4.csproj", "{DEABF647-972B-41C3-AE28-5D93A814B6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPCore4", "..\KPCore4\KPCore4.csproj", "{6AE9B43C-60FE-474C-9576-A5E8434CA70D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEABF647-972B-41C3-AE28-5D93A814B6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEABF647-972B-41C3-AE28-5D93A814B6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEABF647-972B-41C3-AE28-5D93A814B6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEABF647-972B-41C3-AE28-5D93A814B6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE9B43C-60FE-474C-9576-A5E8434CA70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE9B43C-60FE-474C-9576-A5E8434CA70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE9B43C-60FE-474C-9576-A5E8434CA70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE9B43C-60FE-474C-9576-A5E8434CA70D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68A127A8-5E04-41E3-9991-4756C439671D}
+	EndGlobalSection
+EndGlobal
