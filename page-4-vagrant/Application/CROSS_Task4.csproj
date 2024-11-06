@@ -12,7 +12,7 @@
     <PackageId>KPetrachyk</PackageId>
     <Authors>raccoon-hero</Authors>
     <Description>A console application tool that helps interact with Lab1, 2, and 3.</Description>
-    <RepositoryUrl>https://github.com/raccoon-hero/cross-platform-programming/tree/main/CROSS_Task4</RepositoryUrl>
+    <RepositoryUrl>https://github.com/raccoon-hero/cross-platform-sketchbook/tree/main/CROSS_Task4</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
