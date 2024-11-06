@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
 
    ```bash
    git clone https://github.com/raccoon-hero/cross-platform-sketchbook.git
-   cd cross-platform-programming/page-3
+   cd cross-platform-sketchbook/page-3
    ```
 
 2. **Create the .nuspec File:**
