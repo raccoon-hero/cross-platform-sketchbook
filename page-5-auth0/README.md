@@ -5,7 +5,7 @@ This is a web application built using ASP.NET Core MVC and integrated with Auth0
 The instructions below will get you a copy of the project up and running on your local machine for development and testing purposes. They also demonstrate how to set up user registration, login, and profile pages, as well as how to handle user claims and authorization.
 
 *Web App's Main Page:*
-![Web App Main Page](https://github.com/raccoon-hero/cross-platform-sketchbook/blob/main/Images/CROSS_Task5.%20Screenshot%201.%20Main%20Page.png)
+![Web App Main Page](https://github.com/raccoon-hero/cross-platform-sketchbook/blob/main/images/CROSS_Task5.%20Screenshot%201.%20Main%20Page.png)
 
 ## Prerequisites
 
@@ -244,4 +244,4 @@ Core features of this Web App Project:
 ## Additional Images
 
 *Web App's Task 1 Page:*
-![Web App Task Page Example](https://github.com/raccoon-hero/cross-platform-sketchbook/blob/main/Images/CROSS_Task5.%20Screenshot%202.%20Task%20Page%20Example.png)
+![Web App Task Page Example](https://github.com/raccoon-hero/cross-platform-sketchbook/blob/main/images/CROSS_Task5.%20Screenshot%202.%20Task%20Page%20Example.png)
