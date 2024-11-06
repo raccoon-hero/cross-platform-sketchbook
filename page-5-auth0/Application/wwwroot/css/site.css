@@ -1,0 +1,272 @@
+﻿body {
+    background: radial-gradient(circle, #0a0f0b 0%, #00171f 100%);
+    color: #00ff00;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    flex-direction: column;
+}
+
+hr {
+    margin: auto;
+    width: 70rem;
+    height: 1px;
+    background-color: #242431;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    color: #455f77;
+}
+
+.container {
+    width: 70rem;
+    margin: auto;
+    margin-top: 1em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
+    text-align: center;
+    width: 80%;
+}
+
+    .main-header h1 {
+        font-size: 2.5em;
+        color: #00ff00;
+        text-shadow: 0 0 45px #49a1ff7a, 0 0 10px black, 0 0 5px black, 1px 1px 0px #bcffae;
+    }
+
+.link {
+    color: #ff00ff;
+    transition: color 0.3s;
+}
+
+    .link:hover {
+        color: #ff69b4;
+    }
+
+.task-table table {
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #006400;
+    color: white;
+    border-radius: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #000000;
+}
+
+tr:nth-child(odd) {
+    background-color: #003300;
+}
+
+/* Navbar */
+#custom-navbar {
+    background-color: #111;
+    color: #fff;
+    width: 80%;
+    padding: 10px 0; 
+    max-width: 55rem;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+#navbar-brand {
+    text-decoration: none;
+    color: #00ff00;
+    font-size: 1.8em;
+    font-weight: bold; 
+    flex-shrink: 0; 
+}
+
+#nav-items {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #00ff00; 
+    margin-left: 20px;
+    transition: color 0.3s ease; 
+    white-space: nowrap; 
+}
+
+    .nav-item:hover {
+        color: #ff00ff;
+    }
+
+
+
+.hacker-row {
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, #0a0f0b 0%, #00171f 100%);
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+}
+
+.hacker-col {
+    flex: 1;
+    text-align: center;
+    color: #00ff00;
+}
+
+.hacker-title {
+    font-size: 1.4em;
+    color: #00ff00;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+}
+
+.hacker-profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.hacker-profile-image img {
+    border-radius: 50%;
+    max-width: 100px;
+    border: 2px solid #00ff00;
+}
+
+.hacker-profile-details {
+    text-align: left;
+    max-width: 300px;
+    color: #00ff00;
+}
+
+.hacker-profile-name {
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+.hacker-profile-item {
+    font-size: 1em;
+    color: #00ff00;
+    margin: 5px 0;
+}
+
+    .hacker-profile-item i {
+        margin-right: 10px;
+    }
+
+.hacker-username {
+    font-style: italic;
+    color: #ff00ff;
+    font-size:1.5em;
+    font-variant:normal;
+}
+
+.hacker-task-container {
+    background: radial-gradient(circle, #0a0f0b 0%, #00171f 100%);
+    color: #00ff00;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 2% auto;
+    width: 80%;
+}
+
+.hacker-task-content {
+    border: 2px solid #00ff00;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.hacker-heading, .hacker-subheading {
+    color: #00ff00;
+    text-align: center;
+}
+
+.hacker-task-description, .hacker-task-instructions {
+    margin-bottom: 20px;
+}
+
+.hacker-input-group {
+    margin-bottom: 15px;
+}
+
+.hacker-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #000;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+}
+
+.hacker-submit-button {
+    background: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+    .hacker-submit-button:hover {
+        background: #000;
+        color: #00ff00;
+        border: 1px solid #00ff00;
+    }
+
+/* Responsive Design Adjustments */
+/* → Requires additional touches */
+
+@media (max-width: 768px) {
+    .hacker-task-container {
+        width: 95%;
+        margin: 5% auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-header h1 {
+        font-size: 2em;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

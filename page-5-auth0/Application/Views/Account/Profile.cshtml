@@ -1,0 +1,21 @@
+﻿@model CROSS_Task5.ViewModels.UserProfileViewModel
+@{
+    ViewData["Title"] = "user profile";
+}
+
+<div class="hacker-row">
+    <div class="hacker-col">
+        <h2 class="hacker-title">@ViewData["Title"]<br><span class="hacker-username">'@Model.Username'</span></h2>
+        <div class="hacker-profile-info">
+            <div class="hacker-profile-image">
+                <img src="@Model.ProfileImage" alt="Profile Image" class="img-rounded img-responsive" />
+            </div>
+            <div class="hacker-profile-details">
+                <h3 class="hacker-profile-name">@Model.Name</h3>
+                <p class="hacker-profile-item"><i class="fas fa-envelope"></i> <b>Email:</b> @Model.EmailAddress</p>
+                <p class="hacker-profile-item"><i class="fas fa-phone-alt"></i> <b>Phone:</b> @Model.PhoneNumber</p>
+                <p class="hacker-profile-item"><i class="fas fa-user"></i> <b>Full Name:</b> @Model.FullName</p>
+            </div>
+        </div>
+    </div>
+</div>
